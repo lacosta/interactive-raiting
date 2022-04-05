@@ -1,0 +1,23 @@
+@import 'global-styles/globals.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background-color: $very-dark-blue;
+  font-family: $font-Overpass;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

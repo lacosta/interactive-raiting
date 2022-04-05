@@ -1,0 +1,17 @@
+@import 'global-styles/globals.scss';
+
+.footer {
+  color: $white;
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+
+  &__link {
+    color: #3e52a3;
+    text-decoration: none;
+
+    &:visited {
+      color: none;
+    }
+  }
+}

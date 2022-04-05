@@ -1,0 +1,47 @@
+@import 'global-styles/globals.scss';
+
+.thank-you {
+  background-color: #1d242e;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 350px;
+  padding: 24px;
+  width: 100%;
+
+  &__image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__raiting {
+    background-color: $dark-blue;
+    border-radius: 15px 20px;
+    color: $orange;
+    margin: 0 auto;
+    padding: 5px 20px;
+    text-align: center;
+  }
+
+  &__title {
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__description {
+    color: $medium-grey;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  &__back {
+    color: $white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+  }
+}

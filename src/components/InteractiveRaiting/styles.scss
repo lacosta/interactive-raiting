@@ -1,0 +1,80 @@
+@import 'global-styles/globals.scss';
+
+.interactive-raiting {
+  background-color: #1d242e;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 350px;
+  padding: 24px;
+  width: 100%;
+
+  &__icon {
+    align-items: center;
+    background-color: $dark-blue;
+    border-radius: 30px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+
+    & > img {
+      height: 15px;
+      width: 15px;
+    }
+  }
+
+  &__title {
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  &__description {
+    color: $medium-grey;
+    font-size: 1rem;
+  }
+
+  &__raitings {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__raiting {
+    align-items: center;
+    background-color: $dark-blue;
+    border-radius: 30px;
+    color: $light-grey;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+
+    &--selected {
+      background-color: $orange;
+      color: $white;
+    }
+  }
+
+  &__button {
+    background-color: $orange;
+    border-radius: 20px;
+    border: none;
+    color: $white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    width: 100%;
+
+    &:active {
+      background-color: $white;
+      color: $orange;
+    }
+  }
+}
